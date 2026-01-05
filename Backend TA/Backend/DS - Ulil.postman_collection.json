@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "178cbfc3-27f4-4b6c-a349-c27b5b491e02",
+		"name": "DS - Ulil",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22546936"
+	},
+	"item": [
+		{
+			"name": "predict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Heart_Rate",
+							"value": "61.046537",
+							"type": "text"
+						},
+						{
+							"key": "Steps_Taken",
+							"value": "2901",
+							"type": "text"
+						},
+						{
+							"key": "Temperature",
+							"value": "25.648830",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.170:5000/predict",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"170"
+					],
+					"port": "5000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
